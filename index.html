@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — AI Coloring Book</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #222;
+      background: #fff;
+      padding: 2rem 1rem 4rem;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    h1 { font-size: 2rem; font-weight: 800; margin-bottom: 0.25rem; color: #1a1a1a; }
+    .meta { font-size: 0.875rem; color: #666; margin-bottom: 2.5rem; }
+    h2 { font-size: 1.2rem; font-weight: 700; margin: 2.5rem 0 0.75rem; color: #1a1a1a; border-bottom: 2px solid #eee; padding-bottom: 0.4rem; }
+    p { margin-bottom: 1rem; }
+    ul { margin: 0.5rem 0 1rem 1.5rem; }
+    li { margin-bottom: 0.4rem; }
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0 1.5rem; font-size: 0.9rem; }
+    th { background: #f5f5f5; font-weight: 700; text-align: left; padding: 0.6rem 0.75rem; border: 1px solid #ddd; }
+    td { padding: 0.6rem 0.75rem; border: 1px solid #ddd; vertical-align: top; }
+    a { color: #2C6FBF; }
+    strong { font-weight: 700; }
+    .note { font-size: 0.85rem; color: #555; font-style: italic; }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Privacy Policy</h1>
+  <p class="meta">
+    <strong>Effective date:</strong> June 11, 2026 &nbsp;|&nbsp;
+    <strong>Last updated:</strong> June 11, 2026 &nbsp;|&nbsp;
+    <strong>Contact:</strong> <a href="mailto:mohamed.e82006@gmail.com">mohamed.e82006@gmail.com</a>
+  </p>
+
+  <h2>Who we are</h2>
+  <p>
+    AI Coloring Book ("we", "us", "our") is a mobile application that lets children and families
+    create custom coloring pages using AI image generation. We are operated by
+    <strong>[INSERT LEGAL ENTITY NAME]</strong>,
+    reachable at <a href="mailto:mohamed.e82006@gmail.com">mohamed.e82006@gmail.com</a>.
+  </p>
+
+  <h2>1. Children's privacy (COPPA / GDPR-K)</h2>
+  <p>
+    This app is designed for children aged 2 and up. We comply with the U.S.
+    <strong>Children's Online Privacy Protection Act (COPPA)</strong> and applicable international
+    equivalents (UK Children's Code, EU GDPR Article 8, UAE PDPL).
+  </p>
+  <ul>
+    <li>We do <strong>not</strong> collect personal information from children without verifiable parental consent.</li>
+    <li>Account creation requires a parent or guardian email address and acknowledgement of this policy.</li>
+    <li>Parents may review, correct, or delete their child's account data at any time by contacting us at
+      <a href="mailto:mohamed.e82006@gmail.com">mohamed.e82006@gmail.com</a>.</li>
+  </ul>
+
+  <h2>2. What we collect</h2>
+  <table>
+    <thead>
+      <tr><th>Data</th><th>Purpose</th><th>Retained</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Parent/guardian email</td><td>Account creation and recovery</td><td>Until account deleted</td></tr>
+      <tr><td>Anonymous usage events</td><td>App improvement (generation counts, error rates, latency)</td><td>90 days, then aggregated</td></tr>
+      <tr><td>Purchase receipts (hashed)</td><td>Credit balance verification</td><td>Duration of account</td></tr>
+      <tr><td>Device ID (anonymous)</td><td>Per-device rate limiting to prevent abuse</td><td>30 days rolling</td></tr>
+    </tbody>
+  </table>
+  <p>
+    We do <strong>not</strong> collect names, addresses, phone numbers, or any other personally
+    identifiable information beyond the parent email.
+  </p>
+
+  <h2>3. How we use uploaded photos</h2>
+  <p>When a parent enables the "photo-to-coloring-page" feature:</p>
+  <ul>
+    <li>The photo is transmitted over an encrypted HTTPS connection directly to our image generation server.</li>
+    <li>The photo is processed <strong>in memory only</strong> — it is never written to disk, stored in a database, logged, or retained in any form after the API call completes.</li>
+    <li>The resulting coloring-page image is returned to the device. We do not keep a copy.</li>
+    <li>We do not use uploaded photos to train AI models.</li>
+    <li>We do not share uploaded photos with third parties.</li>
+  </ul>
+
+  <h2>4. AI-generated images and SynthID watermarking</h2>
+  <p>
+    Coloring pages are generated using Google's Gemini image generation model running on
+    Google Cloud Vertex AI. Google applies an invisible digital watermark called <strong>SynthID</strong>
+    to AI-generated images. This watermark:
+  </p>
+  <ul>
+    <li>Is embedded in the image data by Google and cannot be removed by us.</li>
+    <li>Does not contain any personal information.</li>
+    <li>Identifies the image as AI-generated if analyzed by compatible tools.</li>
+  </ul>
+  <p>We do not apply any additional tracking or identification mechanisms to generated images.</p>
+
+  <h2>5. Data we do not collect</h2>
+  <ul>
+    <li>We do <strong>not</strong> collect behavioral data for advertising purposes.</li>
+    <li>We do <strong>not</strong> sell, rent, or trade personal information to any third party.</li>
+    <li>We do <strong>not</strong> use cross-app tracking or advertising identifiers (no IDFA / GAID usage for ads).</li>
+    <li>We do <strong>not</strong> run behavioral advertising of any kind.</li>
+    <li>We do <strong>not</strong> share data with social networks or analytics companies beyond the anonymous,
+      aggregated metrics described in Section 2.</li>
+  </ul>
+
+  <h2>6. Third-party services</h2>
+  <table>
+    <thead>
+      <tr><th>Service</th><th>Purpose</th><th>Privacy policy</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Supabase</td>
+        <td>Authentication and credit balance storage</td>
+        <td><a href="https://supabase.com/privacy" target="_blank" rel="noopener">supabase.com/privacy</a></td>
+      </tr>
+      <tr>
+        <td>Google Cloud Vertex AI</td>
+        <td>AI image generation</td>
+        <td><a href="https://cloud.google.com/terms/cloud-privacy-notice" target="_blank" rel="noopener">cloud.google.com/terms/cloud-privacy-notice</a></td>
+      </tr>
+      <tr>
+        <td>Apple App Store / Google Play</td>
+        <td>In-app purchases</td>
+        <td>Per-platform policies</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>
+    Each third-party service processes only the minimum data required for its function.
+    We do not share photo data with any of these services beyond what is necessary for
+    image generation (Google Cloud only).
+  </p>
+
+  <h2>7. Data retention and deletion</h2>
+  <ul>
+    <li><strong>Account data:</strong> Retained until you delete your account. To delete, use Account → Delete Account in the app, or email <a href="mailto:mohamed.e82006@gmail.com">mohamed.e82006@gmail.com</a>.</li>
+    <li><strong>Usage events:</strong> Auto-deleted after 90 days.</li>
+    <li><strong>Photo data:</strong> Not retained (see Section 3).</li>
+    <li><strong>Generated coloring pages:</strong> Stored on-device in the app's local gallery only. Uninstalling the app removes all local data. We do not store copies.</li>
+  </ul>
+
+  <h2>8. Security</h2>
+  <p>
+    All data in transit is encrypted using TLS 1.2 or higher. Stored credentials (API keys,
+    service account keys) are held in environment-variable secrets and never exposed in source
+    code or client-side bundles.
+  </p>
+
+  <h2>9. Parental controls</h2>
+  <p>Parents can:</p>
+  <ul>
+    <li>Delete the account and all associated data from <strong>Account → Delete Account</strong> within the app.
+      This immediately and permanently removes all stored data.</li>
+    <li>Contact us at <a href="mailto:mohamed.e82006@gmail.com">mohamed.e82006@gmail.com</a> to exercise any
+      COPPA/GDPR rights (data access, correction, deletion). We will respond within 48 hours.</li>
+  </ul>
+  <p>
+    The app's parental gate (a math challenge on every sensitive action) helps ensure children
+    cannot change settings or access mature features without a parent present.
+  </p>
+
+  <h2>10. Changes to this policy</h2>
+  <p>
+    We will notify registered parent/guardian accounts by email at least 14 days before any
+    material change to this policy. Continued use after that date constitutes acceptance.
+  </p>
+
+  <h2>11. Contact</h2>
+  <p>For privacy questions, data requests, or to exercise your rights:</p>
+  <p>
+    <strong>Email:</strong> <a href="mailto:mohamed.e82006@gmail.com">mohamed.e82006@gmail.com</a><br />
+    <strong>Address:</strong> [INSERT LEGAL ADDRESS]
+  </p>
+  <p>For urgent concerns about a child's data, we commit to responding within 48 hours.</p>
+
+</div>
+</body>
+</html>
